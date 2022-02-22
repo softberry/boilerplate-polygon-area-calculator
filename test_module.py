@@ -110,6 +110,6 @@ class UnitTests(unittest.TestCase):
         actual = rect2.get_amount_inside(self.rect)
         expected = 0
         self.assertEqual(actual, expected, 'Expected `get_amount_inside` to return 0.')
-        
+
 if __name__ == "__main__":
     unittest.main()
